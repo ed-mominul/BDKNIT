@@ -112,12 +112,12 @@ body {
     position: relative;
     margin: 0px auto;
     max-width: 1225px;
-    min-height: 90px;
+    
 }
 .site-header .home-link{
     float: left;
-    min-width: 80px;
-    min-height: 90px;
+   
+   
     padding: 0 0px 0px 32px;
     margin-top: 10px;
 }
@@ -130,10 +130,13 @@ body {
     max-width: 1264px!important;
     min-height: 88px;
 }
+.navbar {
+    padding: 0;
+  }
 
 .headerwrap .navbar {
     float: right;
-    margin-right: 45px;
+    margin-right: 50px;
 }
 .main-navigation {
     display: block;
@@ -156,7 +159,14 @@ body {
 .nav-container li a{
     text-decoration: none;
     color: black;
+    font-size: 14px;
+    font-weight: 500;
 }
+.nav-container li a:hover{
+    color: #0eade1;
+
+}
+
 .carousel-caption{
     padding: 50px;
     top: 50px;
